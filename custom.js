@@ -32,7 +32,7 @@
 //           alert(start);
            for(var k=start;k<end;k++){
 //               $('.img').eq(k).show(); 
-               $('.img').eq(k).fadeIn(500); 
+               $('.img').eq(k).fadeIn(300); 
            }
        });
        
