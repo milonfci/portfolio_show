@@ -1,6 +1,5 @@
   
     var per_page = 2;
-    var current_page = 
     $(document).ready(function(){
        var total_portfolio = $('.img').length;
        
@@ -32,7 +31,7 @@
            var end = start+per_page;
 //           alert(start);
            for(var k=start;k<end;k++){
-               $('.img').eq(k).show();
+               $('.img').eq(k).show(300);
            }
        });
        
