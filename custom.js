@@ -32,6 +32,7 @@
 //           alert(start);
            for(var k=start;k<end;k++){
                $('.img').eq(k).show(300); 
+               $('.img').eq(k).fadeIn(500); 
            }
        });
        
