@@ -31,7 +31,7 @@
            var end = start+per_page;
 //           alert(start);
            for(var k=start;k<end;k++){
-               $('.img').eq(k).show(300);
+               $('.img').eq(k).show(300); 
            }
        });
        
